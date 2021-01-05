@@ -1,15 +1,14 @@
 import './App.css';
 import Header from './Header';
+import Sidebar from './Sidebar';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello Akshay lets build slack clone :rocket</h1>
-
-      {/* Header */}
       <Header />
-      {/* Sidebar */}
-      {/* React-Router -> chat scree 8 */}
+      <div className="app__body">
+        <Sidebar />
+      </div>
     </div>
   );
 }
